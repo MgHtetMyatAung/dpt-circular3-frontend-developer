@@ -1,0 +1,47 @@
+.master_price_page {
+  @apply container mx-auto;
+}
+
+.master_head_box {
+  @apply border-b-2 py-[5px];
+}
+
+.master_head_title {
+  @apply container mx-auto text-2xl font-bold;
+}
+
+.master_routes {
+  @apply flex w-fit mx-auto my-[10px];
+}
+
+.master_route {
+  @apply w-fit py-[5px] px-[10px] border-[1px] cursor-pointer;
+}
+
+.route_active {
+  @apply bg-blue-900 text-gray-50;
+}
+
+.master_price_form {
+  @apply py-[10px] border-t-[1px];
+}
+
+.form_inputs {
+  @apply flex items-center justify-between gap-[10px] border-b-[1px] pb-[10px];
+}
+
+.form_footer {
+  @apply py-[10px] flex justify-between items-center;
+}
+
+.master_submit_btn {
+  @apply py-[5px] px-[20px] bg-blue-900 text-gray-50 rounded;
+}
+
+.label {
+  @apply font-semibold;
+}
+
+.radio_inputs {
+  @apply flex items-center gap-[10px];
+}

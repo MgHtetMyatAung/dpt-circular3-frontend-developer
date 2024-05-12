@@ -1,0 +1,23 @@
+.header {
+  @apply bg-gray-800;
+}
+
+.nav_bar {
+  @apply h-[60px] container mx-auto flex justify-between items-center;
+}
+
+.nav_items {
+  @apply flex gap-[30px];
+}
+
+.nav_item {
+  @apply text-gray-50;
+}
+
+.info_box {
+  @apply flex items-center gap-[20px];
+}
+
+.profile_img {
+  @apply w-[35px] h-[35px] object-cover rounded-full;
+}

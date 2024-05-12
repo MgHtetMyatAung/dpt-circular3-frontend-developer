@@ -1,3 +1,5 @@
+import Router from "./routes/Router";
+
 export default function App() {
-  return <div className=" bg-red-500">App</div>;
+  return <Router />;
 }

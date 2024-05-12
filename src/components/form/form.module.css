@@ -1,0 +1,19 @@
+.form_select_box {
+  @apply min-w-fit xl:min-w-[100px] 2xl:min-w-[130px] py-[5px] px-[10px] border border-gray-800;
+}
+
+.form_input_box {
+  @apply w-[150px] py-[5px] px-[10px] border border-gray-800;
+}
+
+.form_radio_box {
+  @apply flex items-center gap-2;
+}
+
+.form_radio_box label {
+  @apply font-semibold;
+}
+
+.form_date_picker {
+  @apply py-[5px] px-[10px] border border-gray-800;
+}
